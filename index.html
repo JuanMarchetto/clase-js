@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input
+        placeholder="inserte el primer numero"
+        name="x"
+    />
+    <input
+        placeholder="inserte el segundo numero"
+        name="y"
+    />
+    <button
+        onclick="console.log(aplicarOperacion(multiplicacion, getValues()))"
+        type="button"
+    >
+        Multiplicar
+    </button>
+    <button
+    onclick="console.log(aplicarOperacion(division, getValues()))"
+    type="button"
+>
+    dividir
+</button>
+<button
+    onclick="console.log(aplicarOperacion(resta, getValues()))"
+    type="button"
+>
+    restar
+</button>
+<script src="calculadora.js"></script>    
+</body>
+</html>
